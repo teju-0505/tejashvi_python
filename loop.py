@@ -1,0 +1,28 @@
+for loop
+
+for i in range(10):
+    print("for loop :" , i)
+
+for i in range(1, 10):
+    print(i)
+
+for i in range(1, 10, 3):
+    print(i)
+
+while loop
+
+i = 0
+while i <= 10:
+    print("while loop:", i)
+    i += 1
+
+# neasted loop
+for i in range(1 , 5):
+    for j in range(1 , 4):
+       print(i)
+    print()
+
+for i in range(1 , 4):
+    for j in range(1 , 3):
+       print(i)
+    print()    
